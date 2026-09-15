@@ -15,8 +15,7 @@
   "files": [
     "src",
     "bin",
-    "data",
-    "docs"
+    "data"
   ],
   "scripts": {
     "test": "node --test test/",
