@@ -1,0 +1,47 @@
+{
+  "name": "image-grid-kit",
+  "version": "1.0.0",
+  "description": "Zero-dependency helpers for splitting an image into a grid and generating CSS sprite-sheet animations from the resulting coordinates.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./grid": "./src/grid.js",
+    "./css": "./src/css.js"
+  },
+  "bin": {
+    "image-grid-kit": "bin/cli.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "data",
+    "docs"
+  ],
+  "scripts": {
+    "test": "node --test test/",
+    "cli": "node bin/cli.js"
+  },
+  "keywords": [
+    "image",
+    "split",
+    "grid",
+    "sprite",
+    "spritesheet",
+    "css",
+    "keyframes",
+    "texture-atlas"
+  ],
+  "homepage": "https://cutmyimage.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessica7168295-ux/image-grid-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jessica7168295-ux/image-grid-kit/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
